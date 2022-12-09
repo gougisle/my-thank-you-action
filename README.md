@@ -1,1 +1,1 @@
-# my-thank-you-action
+# my-thank-you-actions
