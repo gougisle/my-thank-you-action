@@ -18,5 +18,5 @@ inputs:
 ## Using node v14 to run JS
 ## our main is going to ultimately be the location(path) of the script we want to run
 runs:
-  using: "node14"
+  using: "node12"
   main: "dist/index.js" ## Our main entry point
