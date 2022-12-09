@@ -8,3 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./
+        with:
+          ## 'with' is where we can define values for our inputes listed in action.yml whcih is running our module within dist
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
